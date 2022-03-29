@@ -1,0 +1,22 @@
+ body {
+  background: url('background.jpg');
+  background-size: cover;
+}
+
+.bgvideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -9999;
+}
+.body_hide {
+  opacity: 0;
+  transition: .9s opacity ease-in-out;
+}
+.body_visible {
+  opacity: 1;
+}
